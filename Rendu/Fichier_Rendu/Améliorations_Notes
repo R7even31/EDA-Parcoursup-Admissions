@@ -1,5 +1,5 @@
 Analyse_bidim:
-3) améliorer plots de gus notammenet sur partie 3 quanti-quanti (1er graphe difficile à comprendre)
+3) améliorer plots de gus notammenet sur partie 3 quanti-quanti (1er graphe difficile à comprendre)  
 graphes quali-quanti incompréhensibles, j'en ai ajouté d'autres
 
 5) Interprétation à faire
@@ -7,10 +7,9 @@ graphes quali-quanti incompréhensibles, j'en ai ajouté d'autres
 
 visu_carte:okay
 
-ACP: 
-C'est pas Axe1 qui sépare sélectives de non-sélectives??
+ACP: OKAY
 
-LDA: peut être rédiger un peu plus mais on voit rien dans tous les cas
+LDA: OKAY on voit rien dans tous les cas
 
 CA/MCA: possibilité d'utiliser le jeu de données déjà nettoyer au lieu de le refaire je pense
 peut être corriger pour que ça fasse moins génére rpar IA mais sinon les graphes sont bien, bosser sur la compréhension du code 
