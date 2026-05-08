@@ -28,6 +28,7 @@ GMM_python: 2 graphes marche pas, pareil rédiger un peu plus
 
 
 A faire: 
+-clustering : tester pour différents nb de classes, pour les diff methode de clustering + interpreter les classs et mettre des labels
 -ajouter du spetral clustering (je l'ai aps vu), SBM trop compliqué pas la peine je crois
 -comparer les différentes méthodes de clustering
 -en plus de toutes ces modifs, compléter fichier_Oral.ipynb pour l'oral et créer un pdf ou diapo de présentation
