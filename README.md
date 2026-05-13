@@ -90,7 +90,6 @@ Le coeur du projet consiste a comparer plusieurs approches de segmentation :
 - **Spectral Clustering** ;
 - **DBSCAN**.
 
-Une attention particuliere est portee au clustering apres reduction de dimension, notamment apres **ACM**, afin d'obtenir des classes plus stables et plus interpretable
 ---
 
 ## 🚀 Installation & Utilisation
