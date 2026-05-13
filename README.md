@@ -17,7 +17,7 @@ Dans le fichier Rendu (et ordre exécution des fichiers en (.)):
             -data_GPS (nettoyage des données spécifiquement pour exploiter les données GPS) (4)
             -ACP (qu'on réutilise ensuite) (6)
             -LDA (7)
-            -clustering.ipynb(K-Means et HAC simple directement sur ACP, beaucoup moins efficace que sur du MFA ou MCA) (10)
+            -clustering.ipynb(K-Means et HAC simple directement sur ACP, beaucoup moins efficace que sur du MFA ou MCA)(fichier pas très utile, plutôt regarder celui en python sur lequel on a travaillé beaucoup plus) (10)
 
 
     -un fichier Python avec:
@@ -25,8 +25,8 @@ Dans le fichier Rendu (et ordre exécution des fichiers en (.)):
             -visu_carte (5)
             -CA_MCA (8)
             -AD_MFA (avec du clustering dans partie 2, HAC, K-Means) (9)
-            -clustering_acm (HAC, K-Means et GMM sur MCA) (11)
-            -GMM_Python (12)
+            -clustering_acm (ACM puis: HAC, K-Means,GMM,spectral clustering,DBSCAN...) (11)
+            -GMM_Python (idem que clustering en R, regarder plutôt le fihcier clustering ACM qui est plus complet et compare les méthodes) (12)
 
 
 Attendus Oral: 

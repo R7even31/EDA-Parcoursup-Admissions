@@ -19,17 +19,17 @@ Expliquer ce qui se passe et chaque plot surtout pour la partie clustering
 (Les graphes ont l'air top juste il faudra mieux rédiger et expliquer la démarche)
 pas sur du plot de comparaison  OKAY
 
-clustering:montrer que pas très efficace, rédiger un peu plus (à rerédiger sur l'ACP à faire en Python)
+clustering:montrer que pas très efficace, rédiger un peu plus (à rerédiger sur l'ACP à faire en Python) OKAY
 
 
-Clustering_acm: pareil rerédiger mieux mais sinon propre  (à vérifier)
+Clustering_acm: pareil rerédiger mieux mais sinon propre  (à vérifier) OKAY
 
-GMM_python: 2 graphes marche pas, pareil rédiger un peu plus (à vérifier)
+GMM_python: 2 graphes marche pas, pareil rédiger un peu plus (à vérifier) OKAY
 
 
 A faire: 
 -clustering : tester pour différents nb de classes, pour les diff methode de clustering + interpreter les classs et mettre des labels OKAY
--ajouter du spetral clustering (je l'ai aps vu), SBM trop compliqué pas la peine je crois  (à voir si on fait)
+-ajouter du spetral clustering (je l'ai aps vu), SBM trop compliqué pas la peine je crois  (à voir si on fait) OKAY
 -comparer les différentes méthodes de clustering OKAY
 -en plus de toutes ces modifs, compléter fichier_Oral.ipynb pour l'oral et créer un pdf ou diapo de présentation
 s'appuyant sur ce découpage.. (à faire)
