@@ -1,42 +1,66 @@
-Analyse des données Parcoursup (2025-2026)
+Adresse de notre travail: git clone https://github.com/Augustrsc/An2DO_4A.git
+    ``
+---
+
+# Analyse des données Parcoursup (2025-2026)
+
+[![R](https://img.shields.io/badge/Language-R-blue.svg)](https://www.r-project.org/)
+[![Python](https://img.shields.io/badge/Language-Python-yellow.svg)](https://www.python.org/)
+[![Course](https://img.shields.io/badge/UE-Analyse_de_Données_(4MA--AD)-red.svg)]()
+
+## 📌 Présentation du projet
+Ce projet d'étude vise à explorer les structures latentes et les typologies des formations de l'enseignement supérieur français. En nous appuyant sur les données de la session **Parcoursup 2025-2026**, nous cherchons à modéliser les relations entre attractivité, profil social oou encore répartition géographique.
+
+### ❓ Problématique
+> Comment les facteurs de **sélectivité**, de **mixité sociale** ou encore **localisation géographique** structurent-ils l'offre de formation actuelle ? Existe-t-il une cohérence entre les filières déclarées et les classes statistiques obtenues par clustering ?
+
+---
+
+## 🛠️ Organisation du dépôt
+Le projet utilise une approche hybride, exploitant les forces respectives de **R** (statistique descriptive et inférentielle) et de **Python** (visualisation spatiale et algorithmes de machine learning).
+
+### 📂 Structure des fichiers & Ordre d'exécution
+
+| Ordre | Environnement | Fichier | Description |
+| :--- | :--- | :--- | :--- |
+| **1** | 🟦 R | `shared_data.R` | Nettoyage global et préparation du dataset principal. |
+| **2** | 🟦 R | `Analyse_Unidimensionnelle` | État des lieux descriptif des variables. |
+| **3** | 🟨 Py | `analyse_bidimensionnelle` | Étude des corrélations et croisements de variables. |
+| **4** | 🟦 R | `data_GPS` | Traitement spécifique des coordonnées géographiques. |
+| **5** | 🟨 Py | `visu_carte` | Cartographie interactive des formations. |
+| **6** | 🟦 R | `ACP` | Analyse en Composantes Principales (base pour la suite). |
+| **7** | 🟦 R | `LDA` | Analyse Discriminante Linéaire. |
+| **8** | 🟨 Py | `CA_MCA` | Analyse des Correspondances (Simple et Multiple). |
+| **9** | 🟨 Py | `AD_MFA` | Analyse Factorielle Multiple et Clustering (HAC, K-Means). |
+| **10** | 🟦 R | `clustering.ipynb` | *Note : Approche exploratoire sur ACP (moins performante, regarder plutôt le fichier clustering_acm).* |
+| **11** | 🟨 Py | `GMM_Python` | Modèles de mélanges gaussiens sur ACP(moins performante, regarder plutôt le fichier clustering_acm). |
+| **12** | 🟨 Py | `clustering_acm` | **Cœur du projet** : Comparaison (HAC, K-Means, GMM, Spectral, DBSCAN). |
 
 
-Ce projet s'inscrit dans le cadre de l'unité d'enseignement Analyse de Données (4MA-AD). L'objectif est d'étudier les structures latentes et les typologies de formations dans l'enseignement supérieur français à partir des données Parcoursup. 
+---
 
-Problématique: Comment les facteurs de sélectivité, de mixité sociale et de localisation géographique structurent-ils l'offre de formation actuelle ? Existe-t-il une cohérence entre les filières déclarées et les classes statistiques obtenues par clustering ?
+## 🔬 Méthodologies Clés
 
+### 1. Analyses Factorielles
+Nous avons privilégié l'**AFM (Analyse Factorielle Multiple)** et l'**ACM (Analyse des Correspondances Multiples)** pour traiter simultanément des variables qualitatives (types de bacs, régions) et quantitatives (taux d'accès, boursiers).
 
-Organisation du dépôt:
+### 2. Stratégies de Clustering
+Une attention particulière a été portée à la comparaison des performances de segmentation :
+*   **Approches Géométriques :** K-Means et Classification Ascendante Hiérarchique (CAH/HAC).
+*   **Approches Densitaires & Probabilistes :** DBSCAN et GMM (Gaussian Mixture Models).
+*   **Réduction de dimension :** Clustering effectué post-ACM pour stabiliser les classes.
 
-Le projet est divisé en deux environnements pour tirer profit des meilleures bibliothèques de chaque langage.
+---
 
-Dans le fichier Rendu (et ordre exécution des fichiers en (.)):
-    -un fichier R avec:
-            -shared_data.R (nettoyage des données) (1)
-            -Analyse Unidimensionnelle (2)
-            -data_GPS (nettoyage des données spécifiquement pour exploiter les données GPS) (4)
-            -ACP (qu'on réutilise ensuite) (6)
-            -LDA (7)
-            -clustering.ipynb(K-Means et HAC simple directement sur ACP, beaucoup moins efficace que sur du MFA ou MCA)(fichier pas très utile, plutôt regarder celui en python sur lequel on a travaillé beaucoup plus) (10)
-
-
-    -un fichier Python avec:
-            -analyse bidimensionnelle (3)
-            -visu_carte (5)
-            -CA_MCA (8)
-            -AD_MFA (avec du clustering dans partie 2, HAC, K-Means) (9)
-            -clustering_acm (ACM puis: HAC, K-Means,GMM,spectral clustering,DBSCAN...) (11)
-            -GMM_Python (idem que clustering en R, regarder plutôt le fihcier clustering ACM qui est plus complet et compare les méthodes) (12)
+## 🚀 Installation & Utilisation
+1.  **Cloner le dépôt** :
+    ```bash
+    git clone https://github.com/votre-utilisateur/projet-parcoursup.git
+    ```
+2.  **Configuration R** : Assurez-vous d'avoir installé `FactoMineR` et `explor`.
+3.  **Configuration Python** :
+    Voici une proposition pour transformer ton brouillon en un **README.md** professionnel, structuré et visuellement agréable. J'ai réorganisé les informations pour mettre en avant la méthodologie et la complémentarité entre R et Python.
 
 
-Attendus Oral: 
+*Projet réalisé dans le cadre d'une 4ème année d'école d'ingénieur en Mathématiques Appliquées à l'INSa Toulouse (4MA-AD).*
 
-1. Une soutenance orale par groupe de 3 à 4 étudiant·es.
-— Chaque membre du groupe doit être capable de répondre aux questions sur l’ensemble du projet.
-2. Un dépôt Git contenant l’ensemble des codes nécessaires à la reproduction des analyses et des figures.
-— Unfichier README décrivant l’organisation du dépôt est attendu.
-— Lareproductibilité des résultats sera évaluée.
-— Tout membre du groupe doit être en mesure d’expliquer l’ensemble des codes fournis.
-
-
-Groupe: Romain Deleris, Corentin Brandam, Augustin Traissac, 2026
