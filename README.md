@@ -20,6 +20,7 @@ Nous cherchons a mettre en evidence les structures latentes de l'offre de format
 - la repartition geographique.
 
 ### ❓Problematique
+
 > Comment les facteurs de **selectivite**, de **mixite sociale** ou de **localisation geographique** structurent-ils l'offre de formation actuelle ?  
 > Existe-t-il une coherence entre les filieres declarees et les classes statistiques obtenues par clustering ?
 
