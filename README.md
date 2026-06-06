@@ -10,7 +10,8 @@ https://github.com/R7even31/EDA-Parcoursup-Admissions
 [![Python](https://img.shields.io/badge/Language-Python-yellow.svg)](https://www.python.org/)
 [![Course](https://img.shields.io/badge/UE-Analyse_de_Données_(4MA--AD)-red.svg)]()
 
-Contributeurs: Christopher Brule | Romain Deleris | Augustin Traissac | Corentin Brandam
+# Contributeurs: 
+**Romain Deleris | Augustin Traissac | Corentin Brandam**
 
 ## 📌Vue d'ensemble
 Ce depot rassemble notre projet d'analyse de donnees realise dans le cadre de la 4e annee d'ingenieur en mathematiques appliquees a l'INSA Toulouse.
