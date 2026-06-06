@@ -1,5 +1,5 @@
 # Adresse de notre travail:
-https://github.com/Augustrsc/An2DO_4A.git
+https://github.com/R7even31/EDA-Parcoursup-Admissions
     
 ---
 
@@ -39,13 +39,9 @@ Le travail repose sur une approche hybride :
 
 ```text
 .
-├── R/                        # Scripts R de preparation
-├── analyses/                 # Notebooks principaux d'analyse
-├── data/raw/                 # Donnees brutes et sources intermediaires
-├── figures/                  # Figures exportees
-├── Rendu/                    # Supports finaux et livrables
-├── pyproject.toml            # Dependances Python
-├── renv.lock                 # Environnement R
+├── R/                        # Scripts R 
+├── Python/                        # Scripts Python
+├── Slides_Presentation.pdf                 # Slides de présentation résumant le projet
 └── README.md
 ```
 # Fichier Rendu
@@ -59,7 +55,7 @@ Le travail repose sur une approche hybride :
 | **6** | 🟦 R | `ACP` | Analyse en Composantes Principales (base pour la suite). |
 | **7** | 🟦 R | `LDA` | Analyse Discriminante Linéaire. |
 | **8** | 🟨 Py | `CA_MCA` | Analyse des Correspondances (Simple et Multiple). |
-| **9** | 🟨 Py | `AD_MFA` | Analyse Factorielle Multiple et Clustering (HAC, K-Means). |
+| **9** | 🟨 Py | `MFA` | Analyse Factorielle Multiple et Clustering (HAC, K-Means). |
 | **10** | 🟨 Py | `clustring_acp.ipynb` |Comparaison (HAC, K-Means, GMM, Spectral Clustering, DBSCAN, SBM), basé sur l'ACP |
 | **11** | 🟨 Py | `clustering_acm` | Comparaison (HAC, K-Means, GMM, Spectral Clustering, DBSCAN, SBM), basé sur l'ACM |
 | **12** | 🟨 Py | `clustering_mfa` | Comparaison (HAC, K-Means, GMM, Spectral Clustering, DBSCAN, SBM), basé sur l'AFM |
