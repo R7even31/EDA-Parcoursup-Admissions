@@ -10,7 +10,8 @@ https://github.com/R7even31/EDA-Parcoursup-Admissions
 [![Course](https://img.shields.io/badge/UE-Analyse_de_Données_(4MA--AD)-red.svg)]()
 
 ## 📌Vue d'ensemble
-Ce depot rassemble notre projet d'analyse de donnees realise dans le cadre de la 4e annee d'ingenieur en mathematiques appliquees a l'INSA Toulouse.
+Ce depot rassemble notre projet d'analyse de donnees realise avec Augustin Traissac et Corentin Brandam dans le cadre de la 4e annee d'ingenieur en mathematiques appliquees a l'INSA Toulouse.
+
 
 Nous cherchons a mettre en evidence les structures latentes de l'offre de formation en France a partir de la session **Parcoursup 2025-2026**, en croisant plusieurs dimensions :
 
